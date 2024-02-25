@@ -3,6 +3,7 @@ export db_archive, db_checkpoint, db_convert, db_deadlock, db_dump, db_hotbackup
 
 using OpenSSL_jll
 JLLWrappers.@generate_wrapper_header("BerkeleyDB")
+JLLWrappers.@declare_library_product(libdb, "@rpath/libdb-18.1.dylib")
 JLLWrappers.@declare_executable_product(db_archive)
 JLLWrappers.@declare_executable_product(db_checkpoint)
 JLLWrappers.@declare_executable_product(db_convert)
@@ -18,9 +19,14 @@ JLLWrappers.@declare_executable_product(db_stat)
 JLLWrappers.@declare_executable_product(db_tuner)
 JLLWrappers.@declare_executable_product(db_upgrade)
 JLLWrappers.@declare_executable_product(db_verify)
-JLLWrappers.@declare_library_product(libdb, "@rpath/libdb-18.1.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(OpenSSL_jll)
+    JLLWrappers.@init_library_product(
+        libdb,
+        "lib/libdb.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         db_archive,
         "bin/db_archive",
@@ -94,12 +100,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         db_verify,
         "bin/db_verify",
-    )
-
-    JLLWrappers.@init_library_product(
-        libdb,
-        "lib/libdb.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()

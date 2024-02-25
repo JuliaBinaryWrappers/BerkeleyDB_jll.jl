@@ -1,99 +1,127 @@
 [[BerkeleyDB]]
 arch = "aarch64"
-git-tree-sha1 = "077c6ffd048a91715588f5d9cd2a9d1efe7f22b3"
-libc = "glibc"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "fdbbe497c7725a72c0268be916ce10f605f6e49ae535740017b140980a234096"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.aarch64-linux-gnu.tar.gz"
-[[BerkeleyDB]]
-arch = "aarch64"
-git-tree-sha1 = "905e05cc84c64b158cfec0b81af4e990f13c2168"
-libc = "musl"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "a8a0749400702072ea2b643486b8a4f445d45499a7148893600e2f7e143d5faa"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.aarch64-linux-musl.tar.gz"
-[[BerkeleyDB]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "51aeccf5a5c4843846f70242f4f13c13102707df"
-libc = "glibc"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "dd5ce230f2f86a8101f491ad325cac49d0000f0373426d563d3b2bcf98ffc994"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.armv7l-linux-gnueabihf.tar.gz"
-[[BerkeleyDB]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "239dd8f26a5ff7ad7abb355653e0170036f046a3"
-libc = "musl"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "26c9d302949202fd1719966f10b3bcf7aadf50d709a9f18d11e17b9637633780"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.armv7l-linux-musleabihf.tar.gz"
-[[BerkeleyDB]]
-arch = "i686"
-git-tree-sha1 = "02cd03c086d652646436897647ce60700beb7117"
-libc = "glibc"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "5690bceb50b4170a51c4752ac1d02355650e503f0aa90e4a85383b13bcfbe5dc"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.i686-linux-gnu.tar.gz"
-[[BerkeleyDB]]
-arch = "i686"
-git-tree-sha1 = "2c47d79620924db7d9a7fcf082bab7607abc0e07"
-libc = "musl"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "945831c7c974a54a1a573121bdd2be083a6c936b94fe1b7eb7c3973ea8d39ae1"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.i686-linux-musl.tar.gz"
-[[BerkeleyDB]]
-arch = "powerpc64le"
-git-tree-sha1 = "5c083cb52ad0363fc604a0b791054694380ee67f"
-libc = "glibc"
-os = "linux"
-
-    [[BerkeleyDB.download]]
-    sha256 = "66873ec277c676d946d3725f7425e414460ac3fb0939f1b98a3f6e2b675d7e9b"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.powerpc64le-linux-gnu.tar.gz"
-[[BerkeleyDB]]
-arch = "x86_64"
-git-tree-sha1 = "c7583fba42f17dad1dae67035aaff0d21ae4ad79"
+git-tree-sha1 = "969961b00559a963ed8818be38973e245a1e3e08"
 os = "macos"
 
     [[BerkeleyDB.download]]
-    sha256 = "37e013a887d87d4dfadc1d04218de9eb5cf8e587c71dfc7f7a154e8c654ac6d0"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.x86_64-apple-darwin.tar.gz"
+    sha256 = "cb19f3b7be0d87e5facfd33bbbaa754627147b13108e46c17c085132851b17e9"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.aarch64-apple-darwin.tar.gz"
 [[BerkeleyDB]]
-arch = "x86_64"
-git-tree-sha1 = "23f32b19b8e0257ec9d43322d41231533a2def1d"
+arch = "aarch64"
+git-tree-sha1 = "06593302c13ffd0d4a64ffa4e77449602d572308"
 libc = "glibc"
 os = "linux"
 
     [[BerkeleyDB.download]]
-    sha256 = "934d17d9532c4fb84b75126cf46484494f03d3af9830c833e1217f13d1b9f1e6"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.x86_64-linux-gnu.tar.gz"
+    sha256 = "d36ec38c057fa416c53d87385e2bf3fe19c52870940905b59ed2e53c12b65084"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.aarch64-linux-gnu.tar.gz"
 [[BerkeleyDB]]
-arch = "x86_64"
-git-tree-sha1 = "f34864f3a23fe248b798d664dfc2db7f668e05f5"
+arch = "aarch64"
+git-tree-sha1 = "25872e6fe640ffd04c9ceb3d8a0132235be5b068"
 libc = "musl"
 os = "linux"
 
     [[BerkeleyDB.download]]
-    sha256 = "bff3630253ce6fb229c4e3ae4da24bef033e3e8fd1c874d4295d6c94b6b3a879"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.x86_64-linux-musl.tar.gz"
+    sha256 = "ca48d96018988647916a28f34df01d4ae033c5438f0635d07e912bbc1a9aa966"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.aarch64-linux-musl.tar.gz"
+[[BerkeleyDB]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8e156e5dada57a7448feb17841a669c751f1d7fa"
+libc = "glibc"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "4d131eca32f7467fb5036c27c739c52fdf01a244e2ca81dcf9f4af93170c4d2c"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.armv6l-linux-gnueabihf.tar.gz"
+[[BerkeleyDB]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "667fb119d7061bf2f932797fe787c2832c1774d6"
+libc = "musl"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "1e3d922dab41da0f63bb363d35706fdd4a310822bb1c2c9e27d6f8ecb92d8824"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.armv6l-linux-musleabihf.tar.gz"
+[[BerkeleyDB]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5efb8c98fd604047655168483c217cd38a3af578"
+libc = "glibc"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "e19d50cc12661c0a7386836cbf0a1259506fe7dd561a18711d3dd9ffd6b8ad99"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.armv7l-linux-gnueabihf.tar.gz"
+[[BerkeleyDB]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e24dbe8eb5f9e85db268ccbf2d53e6371eebf888"
+libc = "musl"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "5fe5b7e98daf551debbc4454fd62817e44b52de6c2c016136d9a6b14e11297f9"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.armv7l-linux-musleabihf.tar.gz"
+[[BerkeleyDB]]
+arch = "i686"
+git-tree-sha1 = "0172ab51a7c55143ec7accd808f31ea93e22a3e1"
+libc = "glibc"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "babca6fa430b45a1489417aff99bd55a04d32870a8b690993b88e53a478ffa7a"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.i686-linux-gnu.tar.gz"
+[[BerkeleyDB]]
+arch = "i686"
+git-tree-sha1 = "ac2ff70218fd0a72831a1df74b6ba99d52312880"
+libc = "musl"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "1f318dcc75b55271b1febafed726cf16f5e00f294b7421eb7d7a6aeecdaff30d"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.i686-linux-musl.tar.gz"
+[[BerkeleyDB]]
+arch = "powerpc64le"
+git-tree-sha1 = "59e0c512dc27212d7ab2a0ab31f19cdda857fb15"
+libc = "glibc"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "7e4d0c96c438333a77a297972d209ed28d87b6c009fa828345a02bb3e9c70a74"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.powerpc64le-linux-gnu.tar.gz"
 [[BerkeleyDB]]
 arch = "x86_64"
-git-tree-sha1 = "4b0921e82e873ad3fde6e07ae9f79f809ce2c175"
+git-tree-sha1 = "ee3549f12eb0c7f8b12c7d429b8ba12d29c0ca0a"
+os = "macos"
+
+    [[BerkeleyDB.download]]
+    sha256 = "2f3756cca4f318fd4c692446280e4ef1be2a25d953073817fa58f985e7e6f703"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.x86_64-apple-darwin.tar.gz"
+[[BerkeleyDB]]
+arch = "x86_64"
+git-tree-sha1 = "08b3c3852673795f2842f0b285c2eaa324af2a11"
+libc = "glibc"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "350914d505769f07f0a7521e40c812d8462d8b761a383893a0c0774a3443394a"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.x86_64-linux-gnu.tar.gz"
+[[BerkeleyDB]]
+arch = "x86_64"
+git-tree-sha1 = "8657b53c4b4807f7ebbc2e5053b86dc6c949662c"
+libc = "musl"
+os = "linux"
+
+    [[BerkeleyDB.download]]
+    sha256 = "21df376a44d17b63e3054603b1cbf795f99d5924e5f734fe73de8d2072da221a"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.x86_64-linux-musl.tar.gz"
+[[BerkeleyDB]]
+arch = "x86_64"
+git-tree-sha1 = "5c67fe96b757157e50c0dd59480cd7064c4d5f0e"
 os = "freebsd"
 
     [[BerkeleyDB.download]]
-    sha256 = "f18049802c9036431c67434e1fc5dccfa5c1bdba5be8f42589d1b85506891d11"
-    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.40+0/BerkeleyDB.v18.1.40.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "3569f4002f49fe011c95c1e755511d489bad21a23074459651ae1c8966e50d70"
+    url = "https://github.com/JuliaBinaryWrappers/BerkeleyDB_jll.jl/releases/download/BerkeleyDB-v18.1.41+0/BerkeleyDB.v18.1.41.x86_64-unknown-freebsd.tar.gz"
